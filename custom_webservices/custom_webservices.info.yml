@@ -1,0 +1,10 @@
+name: Custom Webservices
+type: module
+description: 'Custom Apikey field in system site settings form and use this to get node details'
+package: Custom
+dependencies: 
+- system
+- rest
+- restui
+- basic_auth
+core: 8.x

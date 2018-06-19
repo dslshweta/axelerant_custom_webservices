@@ -1,0 +1,6 @@
+services:
+  custom_webservices.route_subscriber:
+    class: 'Drupal\custom_webservices\Routing\RouteSubscriber'
+    #Tell Drupal to use our class when building routes.
+    tags:
+      - { name: event_subscriber }
